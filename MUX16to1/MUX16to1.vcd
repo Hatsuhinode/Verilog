@@ -1,0 +1,47 @@
+$date
+	Fri Jun 30 12:12:43 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module muxtest $end
+$var wire 1 ! O $end
+$var reg 16 " I [15:0] $end
+$var reg 4 # S [3:0] $end
+$scope module M $end
+$var wire 16 $ in [15:0] $end
+$var wire 4 % sel [3:0] $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#5
+1!
+b11 #
+b11 %
+b11000010101011 "
+b11000010101011 $
+#10
+b0 #
+b0 %
+#15
+b101 #
+b101 %
+#20
+b1100 #
+b1100 %
+#25
