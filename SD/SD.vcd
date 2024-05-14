@@ -1,0 +1,61 @@
+$date
+	Mon Jul 24 09:14:58 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module SDtest $end
+$var wire 1 ! z $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$var reg 1 $ x $end
+$scope module sequenceDetector $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 $ x $end
+$var parameter 32 % S0 $end
+$var parameter 32 & S1 $end
+$var parameter 32 ' S2 $end
+$var parameter 32 ( S3 $end
+$var reg 2 ) NS [1:0] $end
+$var reg 2 * PS [1:0] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 (
+b10 '
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+bx *
+bx )
+x$
+x#
+x"
+x!
+$end
+#12
+0$
+#15
+0#
+#32
+1$
+#52
+0$
+#62
+1$
+#82
+0$
+#102
+1$
+#122
+0$
+#132
